@@ -12,10 +12,10 @@
     "require": {
         "php": ">=5.6.0",
         "symfony/options-resolver": "*",
-        "doctrine/common": "~2.2"
+        "doctrine/common": "^3.1"
     },
     "require-dev": {
-        "atoum/atoum": "dev-master",
+        "atoum/atoum": "3.1.0",
         "pimple/pimple": "*",
         "knplabs/knp-components": "1.*",
         "symfony/event-dispatcher": "2.*"
