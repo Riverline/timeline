@@ -5,7 +5,7 @@ namespace tests\units\Spy\Timeline\Spread\Entry;
 require_once __DIR__.'/../../../../../../vendor/autoload.php';
 
 use Spy\Timeline\Spread\Entry\EntryUnaware as TestedModel;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class EntryUnaware extends atoum\test
 {

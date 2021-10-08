@@ -5,7 +5,7 @@ namespace tests\units\Spy\Timeline\Model;
 require_once __DIR__.'/../../../../../vendor/autoload.php';
 
 use Spy\Timeline\Model\Component as TestedModel;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class Component extends atoum\test
 {

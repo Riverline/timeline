@@ -6,7 +6,7 @@ require_once __DIR__.'/../../../../../../vendor/autoload.php';
 
 use Spy\Timeline\ResolveComponent\TestHelper\User;
 use Spy\Timeline\ResolveComponent\ValueObject\ResolveComponentModelIdentifier as TestedModel;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class ResolveComponentModelIdentifier extends atoum\test
 {

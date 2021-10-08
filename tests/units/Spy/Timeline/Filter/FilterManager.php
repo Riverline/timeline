@@ -5,7 +5,7 @@ namespace tests\units\Spy\Timeline\Filter;
 require_once __DIR__.'/../../../../../vendor/autoload.php';
 
 use Spy\Timeline\Filter\FilterManager as TestedFilterManager;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class FilterManager extends atoum\test
 {

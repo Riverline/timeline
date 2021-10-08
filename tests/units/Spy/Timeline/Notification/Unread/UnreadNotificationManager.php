@@ -7,7 +7,7 @@ require_once __DIR__.'/../../../../../../vendor/autoload.php';
 use Spy\Timeline\Notification\Unread\UnreadNotificationManager as TestedModel;
 use Spy\Timeline\Spread\Entry\Entry;
 use Spy\Timeline\Spread\Entry\EntryCollection;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class UnreadNotificationManager extends atoum\test
 {

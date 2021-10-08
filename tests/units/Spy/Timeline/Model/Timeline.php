@@ -6,7 +6,7 @@ require_once __DIR__.'/../../../../../vendor/autoload.php';
 
 use Spy\Timeline\Model\Timeline as TestedModel;
 use Spy\Timeline\Model\TimelineInterface;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class Timeline extends atoum\test
 {
