@@ -7,7 +7,7 @@ require_once __DIR__.'/../../../../../vendor/autoload.php';
 use Spy\Timeline\Model\ActionInterface;
 use Spy\Timeline\Model\TimelineInterface;
 use Spy\Timeline\Spread\Deployer as TestedModel;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class Deployer extends atoum\test
 {

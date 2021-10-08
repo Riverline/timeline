@@ -5,7 +5,7 @@ namespace tests\units\Spy\Timeline\Filter;
 require_once __DIR__.'/../../../../../vendor/autoload.php';
 
 use Spy\Timeline\Filter\DuplicateKey as TestedModel;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class DuplicateKey extends atoum\test
 {

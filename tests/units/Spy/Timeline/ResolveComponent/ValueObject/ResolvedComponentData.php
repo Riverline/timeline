@@ -5,7 +5,7 @@ namespace tests\units\Spy\Timeline\ResolveComponent\ValueObject;
 require_once __DIR__.'/../../../../../../vendor/autoload.php';
 
 use Spy\Timeline\ResolveComponent\ValueObject\ResolvedComponentData as TestedModel;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class ResolvedComponentData extends atoum\test
 {

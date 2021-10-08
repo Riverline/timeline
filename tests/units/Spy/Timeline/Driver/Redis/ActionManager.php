@@ -7,7 +7,7 @@ require_once __DIR__.'/../../../../../../vendor/autoload.php';
 use Spy\Timeline\Driver\Redis\ActionManager as TestedModel;
 use Spy\Timeline\ResolveComponent\ValueObject\ResolveComponentModelIdentifier;
 use Spy\Timeline\ResolveComponent\ValueObject\ResolvedComponentData;
-use mageekguy\atoum;
+use atoum\atoum;
 
 class ActionManager extends atoum\test
 {
